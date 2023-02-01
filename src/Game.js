@@ -3,7 +3,9 @@ const prototypeQuestions = data.prototypeData;
 const util = require('./util');
 
 class Game {
-  constructor() {}
+  constructor() {
+    
+  }
 
   printMessage(deck, round) {
     console.log(`Welcome to FlashCards! You are playing with ${deck.countCards()} cards.
@@ -15,4 +17,3 @@ class Game {
   }
 }
 
-module.exports = Game;
