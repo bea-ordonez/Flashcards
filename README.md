@@ -5,6 +5,11 @@
 
 ![Flashcards GIF](https://media4.giphy.com/media/AMJAxSxRrz7pEw0cmp/giphy.gif?cid%3D790b7611d47f9d13ddcbc021423d4952392c4b225508ae9e%26rid%3Dgiphy.gif%26ct%3Dg)
 
+### Tech:
+- JavaScript
+- Mocha
+- Chai
+
 ### Setup
 - Clone down this repo, and navigate into the directory for it.
 - Run npm install to install the library dependencies.
