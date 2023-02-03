@@ -1,3 +1,5 @@
+const Turn = require("./Turn")
+
 class Round{
     constructor(deck){
         this.turns = 0;
@@ -14,13 +16,13 @@ class Round{
 
     takeTurn(guess) {
         this.currentTurn = new Turn(guess, this.currentCard);
-        this.turns += 1;
-        this.cardPosition += 1;
-        this.currentCard = this.deck[this.cardPosition];
         this.currentTurn.evaluateGuess();
         if(!this.currentTurn.correct) {
             this.incorrectGuesses.push(this.currentCard.id);
         }
+        this.turns += 1;
+        this.cardPosition += 1;
+        this.currentCard = this.deck[this.cardPosition];
         return this.currentTurn.giveFeedback();
     }
 
