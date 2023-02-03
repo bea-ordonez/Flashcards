@@ -12,7 +12,7 @@ describe('Turn', () => {
     beforeEach( function () {
         newCard = new Card(1, "What allows you to define a set of related information using key-value pairs?", ["object", "array", "function"], "object");
         correctTurn = new Turn("object", newCard);
-        incorrectTurn = new Turn ("array", newCard)
+        incorrectTurn = new Turn ("array", newCard);
     })
 
     it('should be a function', () => {

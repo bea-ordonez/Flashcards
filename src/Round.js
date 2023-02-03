@@ -23,6 +23,9 @@ class Round{
         this.turns += 1;
         this.cardPosition += 1;
         this.currentCard = this.deck[this.cardPosition];
+        if (this.cardPosition === this.deck.length) {
+        return this.endRound()
+        }
         return this.currentTurn.giveFeedback();
     }
 
