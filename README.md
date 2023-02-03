@@ -12,9 +12,4 @@
 - Use arrow keys to navigate the choices and enter to select your answer.
 - Enjoy!
 
-### Preview
-![Screen Recording 2023-01-09 at 2 21 02 PM](https://user-images.githubusercontent.com/114776048/211411035-57340424-a2a3-4a87-a190-95990d9303df.gif)
-
-
-
 
